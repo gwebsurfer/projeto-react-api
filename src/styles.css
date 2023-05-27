@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(229, 236, 241);
+  color: rgb(63, 68, 72);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  margin: 2rem 0rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+  color: rgb(137, 149, 159);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+.container li {
+  background-color: rgb(244, 249, 254);
+  margin: 0.8rem 0rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+  border-radius: 0.3rem;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.05);
+}
