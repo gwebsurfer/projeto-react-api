@@ -15,14 +15,15 @@ h1 {
 
 h2 {
   font-size: 0.8rem;
-  font-weight: 100;
+  font-weight: lighter;
   text-transform: uppercase;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.5rem;
   color: rgb(137, 149, 159);
 }
 
 .container {
   margin: 0 auto;
+  padding: 0rem 2rem 3rem 2rem;
   max-width: fit-content;
 }
 
@@ -35,4 +36,9 @@ h2 {
   line-height: 1.6rem;
   border-radius: 0.3rem;
   box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 60%;
 }

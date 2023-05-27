@@ -62,11 +62,11 @@ export default function App() {
   return (
     <div className="container">
       <h1>Buscando Dados</h1>
-      <h2>jsonplaceholder</h2>
+      <h2>todo list - jsonplaceholder</h2>
       <ol>
         {tasks.map((task) => {
           return (
-            <li key={task.id}>{task.title}{task.completed ? ' - Tarefa concluída' : null}</li>
+            <li className={task.completed ? 'done' : null} key={task.id}>{task.title}{task.completed ? ' - Tarefa concluída' : null}</li>
           )
         })}
       </ol>
